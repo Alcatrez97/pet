@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemant Kumar | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0a192f, #172a45);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: #ccd6f6;
+    }
+    section {
+      padding: 2.5rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #0a192f;
+      border-left: 5px solid #0077b5;
+      padding-left: 10px;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    .job h3 {
+      margin-top: 0;
+      color: #0a192f;
+    }
+    ul {
+      margin: 0.5rem 0 0 1.2rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill {
+      background: #0077b5;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0a192f;
+      color: #fff;
+      margin-top: 2rem;
+    }
+    a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hemant Kumar</h1>
+    <p>System Engineer | Microservices Developer | Spring Boot & Cloud Enthusiast</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a passionate Microservices Developer with 3.5+ years of experience in designing, building, and optimizing enterprise-grade applications. Skilled in Java, Spring Boot, Kafka, and cloud technologies, I thrive on solving complex problems, modernizing legacy systems, and building scalable solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card job">
+      <h3>System Engineer – Tata Consultancy Services</h3>
+      <p><em>Oct 2022 – Present | 2 yrs 11 mos</em></p>
+      <ul>
+        <li>Modernized legacy systems by transforming a monolithic application into four microservices using Spring Boot.</li>
+        <li>Integrated Memcached to enhance scalability and reduce database contention, improving system performance.</li>
+        <li>Developed a centralized ELK Stack for real-time logging and monitoring, enabling better observability across services.</li>
+        <li>Implemented resilience patterns with Resilience4j, enhancing system reliability under high-load conditions.</li>
+      </ul>
+    </div>
+
+    <div class="card job">
+      <h3>System Engineer – Tata Consultancy Services</h3>
+      <p><em>Aug 2021 – Sep 2022 | 1 yr 2 mos</em></p>
+      <ul>
+        <li>Established robust test environments on AWS Cloud, enhancing deployment processes.</li>
+        <li>Managed access to jump hosts and various subnets within the VPC, ensuring secure connectivity.</li>
+        <li>Implemented CI/CD pipelines using Jenkins, streamlining development workflow.</li>
+        <li>Automated macro tasks through AWS Lambdas, increasing productivity across teams.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id=
